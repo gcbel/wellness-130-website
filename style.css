@@ -1,0 +1,136 @@
+* {
+    margin: 15px;
+    padding: 0px;
+    margin-left: auto; /* Auto left margin */
+    margin-right: auto; /* Auto right margin */
+    max-width: 1000px; /* Set a maximum width for the content */
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    background-color: #FDF1FF;
+    text-align: center;
+    margin-top: 20px
+}
+
+img {
+    display: block;
+    height: 145px;
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Body */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FDF1FF;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #FDF1FF;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+/* Tab Buttons */
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+.tab-button {
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 2px;
+    padding: 8px 4px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+    color: black;
+}
+
+/* Tab Content */
+
+.tab-content {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.tab-content-container {
+    margin: 2px;
+    padding: 2px 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-button:last-child {
+    margin-right: 0;
+}
+
+/* Week tab */
+
+.weekly-overview {
+    margin-bottom: 30px;
+}
+
+.weekly-overview ul {
+    padding-left: 30px;
+}
+
+/* Recording finder */
+
+.meditation-form {
+    margin-bottom: 30px;
+}
+
+.meditation-form h2 {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Buttons */
+
+select, button {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: #FFFFFF;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F7DFFF;
+}
+
+/* Footer */
+footer {
+    background-color: #F7DFFF;
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
