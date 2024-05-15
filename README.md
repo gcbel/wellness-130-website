@@ -1,8 +1,8 @@
-# Wellness 131 Webpage
+# Wellness 130 Webpage
 
 ## Description
 
-Visit this site at https://gcbel.github.io/wellness-131-website/.
+Visit this site at https://gcbel.github.io/wellness-130-website/.
 
 As my third-ever website, I made this website for the material covered in the Wellness 130 Class at Stanford 
 University. This website keeps all the recordings from the course.
