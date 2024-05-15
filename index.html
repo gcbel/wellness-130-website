@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness 130 Meditation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+</head>
+<body>
+    <header>
+        <img src="./well-130-logo.png" alt="Wellness 130: Meditation with Rebecca Schisler." />
+    </header>
+
+    <main>
+
+    <div class="tabs">
+        <button class="tab-button active" onclick="openTab('tab1')">Home</button>
+        <button class="tab-button" onclick="openTab('tab2')">Weekly Content</button>
+        <button class="tab-button" onclick="openTab('tab3')">Find a recording</button>
+    </div>
+
+    <div class="tab-content-container">
+        <div id="tab1" class="tab-content active">
+            <h2>Welcome!</h2>
+            <p>Welcome to the Wellness 130 Alumni website!</p>
+            <p>In today's fast-paced world, taking a few minutes to meditate can make a big difference in our mental and emotional health.</p>
+            <p>This website keeps track of the meditation practices we covered each week and links some meditation recordings you can revisit. I invite you to explore this website and let it help you in your continued practice. I wish all of you the best!</p>
+            <h4>Motivation for this site</h4>
+            <p>Meditation has become an important part of my week, and offers profound benefits that extend far beyond moments of tranquility. It serves as a cornerstone of emotional well-being and helps to bring balance and mindfulness to life's challenges.</p>
+            <p>This course reinforced the importance of cultivating mindfulness and compassion in our daily lives, inspiring me to create a platform where individuals can continue to access resources beyond the duration of the class. Meditation has been shown to equip individuals with invaluable tools for self-reflection and emotional resilience. Having begun to witness these changes myself, I am hopeful that this site will help myself and others keep up with practice beyond this course.</p>
+            <h4>About me</h4>
+            <p>Personally, I thrived the most in this course during weeks 3 and 5, during the body scan meditation and the gratitude meditation, respectively. I found these meditations to be useful in drawing the mind from everything around me, which allowed me to more deeply engage in the practice.</p>
+            <p>I loved the community created in this class, and found that it truly added to the feeling of stepping into a calm space at the end of a busy day.</p>
+            <p>I initially took this course not knowing anything about meditation, and have been fully convinced by these ten weeks to work to integrate it into my life. I hope to bring with me a sense of gratitude for all I have and an emotional resilience that helps carry me through challenging moments.</p>
+            <p>Thank you, Rebecca, for the loving way in which you have brought all of us into the world of meditation, you have been a wonderful teacher.</p>
+        </div>
+
+        <div id="tab2" class="tab-content">
+            <section class="weekly-overview">
+                <h2>Weekly Content</h2>
+                <ul>
+                    <li><strong>Week 1: Defining Meditation and Mindfulness</strong></li>
+                        <p class="week-one-info">
+                            <em>Five minute meditation with Rebecca Schisler.</em>
+                        </p>
+                        <audio controls>
+                            <source src="week-1-med.mp3" type="audio/mpeg">
+                        </audio>
+    
+                    <li><strong>Week 2: Breath Meditation</strong></li>
+                        <p class="week-two-info">
+                            <em>Eleven minute mindfulness of breath meditation.</em>
+                        </p>
+                        <audio controls>
+                            <source src="week-2-breath.m4a" type="audio/mpeg">
+                        </audio>
+    
+                    <li><strong>Week 3: Body Scan Meditation</strong></li>
+                        <p class="week-three-info-one">
+                            <em>Nine minute body scan meditation.</em>
+                        </p>
+                        <audio controls>
+                        <source src="week-3-body-scan-10-min.mp3" type="audio/mpeg">
+                        </audio>
+                        <p class="week-three-info-two">
+                            <em>Fifteen minute body scan meditation.</em>
+                        </p>
+                        <audio controls>
+                            <source src="week-3-body-scan-15-min.m4a" type="audio/mpeg">
+                        </audio>
+                        <p class="week-three-info-two">
+                            <em>Nine minute meditation for sleep.</em>
+                        </p>
+                        <audio controls>
+                            <source src="week-3-sleep.m4a" type="audio/mpeg">
+                        </audio>
+    
+                    <li><strong>Week 4: Walking Meditation</strong></li>
+                    <li><strong>Week 5: Gratitude Meditation</strong></li>
+                        <p class="week-five-info">
+                            <em>Seven minute gratefulness through the five senses meditation.</em>
+                        </p>
+                        <audio controls>
+                            <source src="week-5-grateful.m4a" type="audio/mpeg">
+                        </audio>
+                        <p class="week-five-info-two">
+                            <em>Eighteen minute gratefulness meditation.</em>
+                        </p>
+                        <audio controls>
+                            <source src="week-5-grateful-longer.m4a" type="audio/mpeg">
+                        </audio>
+    
+                    <li><strong>Week 6: Self-Compassion Meditation</strong></li>
+                        <p class="week-six-info">
+                            <em>Seven minute self-compassion meditation.</em>
+                        </p>
+                        <audio controls>
+                            <source src="week-6-self-compassion.m4a" type="audio/mpeg">
+                        </audio>
+                    
+                    <li><strong>Week 7: Compassion, Metta, Loving Kindess Meditation</strong></li>
+    
+                </ul>
+            </section>
+        </div>
+
+        <div id="tab3" class="tab-content">
+            <section class="meditation-form">
+                <h2>Choose Your Meditation</h2>
+                <form id="meditation-form">
+                    <label for="length">Select desired length of meditation:</label>
+                    <select id="length">
+                        <option value="1">Any</option>
+                        <option value="5">Less than 10 minutes</option>
+                        <option value="10">10 to 15 minutes</option>
+                        <option value="15">More than 15 minutes</option>
+                    </select>
+    
+                    <label for="type">Select desired type of meditation:</label>
+                    <select id="type">
+                        <option value="any">Any</option>
+                        <option value="breath">Breath Meditation</option>
+                        <option value="body">Body Scan Meditation</option>
+                        <option value="sleep">Sleep Meditation</option>
+                        <option value="grat">Gratitude Meditation</option>
+                        <option value="comp">Self-Compassion Meditation</option>
+                    </select>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+    
+            <section class="audio-player" id="audio-player">
+                <!-- Audio will be displayed here -->
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>I do not own any of the recordings, all recordings are courtesy of Rebecca Schisler and the Wellness Department at Stanford University.</p>
+    </footer>
+
+    </main>
+
+    <script src="java.js"></script>
+</body>
+</html>
