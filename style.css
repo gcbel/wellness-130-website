@@ -57,10 +57,6 @@ main {
     color: black;
 }
 
-.tab-button.active {
-    background-color: #F7DFFF;
-}
-
 /* Tab Content */
 
 .tab-content {
@@ -126,12 +122,12 @@ button {
 }
 
 button:hover {
-    background-color: #EAAFFF;
+    background-color: #F7DFFF;
 }
 
 /* Footer */
 footer {
-    background-color: #FFFFFF;
+    background-color: #F7DFFF;
     padding: 20px;
     text-align: center;
     left: 0;
