@@ -10,7 +10,7 @@
 /* Header */
 
 header {
-    background-color: #ffffff;
+    background-color: #FDF1FF;
     text-align: center;
     margin-top: 20px
 }
@@ -27,13 +27,13 @@ img {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
+    background-color: #FDF1FF;
     margin: 0;
     padding: 0;
 }
 
 main {
-    background-color: #ffffff;
+    background-color: #FDF1FF;
     padding-top: 20px;
     padding: 10px;
 }
@@ -46,7 +46,7 @@ main {
 }
 
 .tab-button {
-    background-color: #FDF1FF;
+    background-color: #FFFFFF;
     border: none;
     outline: none;
     cursor: pointer;
@@ -119,7 +119,7 @@ select, button {
 }
 
 button {
-    background-color: #F7DFFF;
+    background-color: #FFFFFF;
     color: black;
     border: none;
     cursor: pointer;
@@ -131,7 +131,7 @@ button:hover {
 
 /* Footer */
 footer {
-    background-color: #FDF1FF;
+    background-color: #FFFFFF;
     padding: 20px;
     text-align: center;
     left: 0;
