@@ -1,4 +1,4 @@
-# Wellness 130 Webpage
+# Wellness 130 Website
 
 ## Description
 
