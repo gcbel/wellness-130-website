@@ -1,4 +1,4 @@
-# Wellness 130 Website
+# Stanford University Wellness 130 Website
 
 ## Description
 
