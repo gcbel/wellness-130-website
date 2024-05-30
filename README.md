@@ -18,7 +18,7 @@ the third allows us to input search criteria and finds a recording based on that
 
 ## Credits
 
-N/A
+All recordings belong to Rebecca Schisler, Dr. Sarah Meyer Tapia, and the Wellness department at Stanford University.
 
 ## License
 
